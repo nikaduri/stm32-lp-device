@@ -98,7 +98,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=WTGYIVXD
 
 [Document4]
 DocumentPath=PCBLib\Crystals.PcbLib
@@ -200,7 +200,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=KXETYTQH
 
 [Document10]
 DocumentPath=PCBLib\Transistors_Relays.PcbLib
@@ -268,7 +268,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=HVPTZPEL
 
 [Document14]
 DocumentPath=SchLib\Crystals.SchLib
@@ -353,7 +353,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=FPDYOUYL
 
 [Document19]
 DocumentPath=SchLib\Transistors_Relays.SchLib
@@ -379,7 +379,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -388,6 +388,40 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LTBCDEPB
+
+[Document21]
+DocumentPath=Sheet2.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=XENZDGRM
+
+[Document22]
+DocumentPath=PCB2.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=XHPYHIRA
 
 [Configuration1]
 Name=Sources
@@ -1358,10 +1392,22 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=IC_Digital.SchLib
+ComponentDesignItemID0=BQ29700DSER
+ComponentSymbolReference0=BQ29700DSER
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=IC_Digital.SchLib
+ComponentDesignItemID1=RV-3028-C7-32.768KHZ-1PPM-TA-QA
+ComponentSymbolReference1=RV-3028-C7-32.768KHZ-1PPM-TA-QA
+ComponentUpdate1=0
+ComponentIsDeviceSheet1=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1375,6 +1421,38 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Availability
+ParameterUpdate0=1
+ParameterName1=Comment
+ParameterUpdate1=1
+ParameterName2=Component Kind
+ParameterUpdate2=1
+ParameterName3=Description
+ParameterUpdate3=1
+ParameterName4=Library Reference
+ParameterUpdate4=1
+ParameterName5=MF
+ParameterUpdate5=1
+ParameterName6=MP
+ParameterUpdate6=1
+ParameterName7=Package
+ParameterUpdate7=1
+ParameterName8=Price
+ParameterUpdate8=1
+ParameterName9=Purchase-URL
+ParameterUpdate9=1
+ParameterName10=SnapEDA_Link
+ParameterUpdate10=1
+ParameterName11=Value
+ParameterUpdate11=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=IC_RV-3028-C7-32.768KHZ-1PPM-TA-QA - duplicate
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=SON50P150X150X80-6N
+ModelUpdate1=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
