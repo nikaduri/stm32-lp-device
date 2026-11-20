@@ -16,12 +16,3 @@ Status\ Report.txt
 # Lock files sometimes left behind
 .~lock.*
 
-
-/SelectionInfo/.vs
-/SelectionInfo/obj
-/SelectionInfo/SelectionInfo/.vs
-/SelectionInfo/SelectionInfo/obj
-*.pdb
-*.user
-/.vs
-/SelectionInfo/SelectionInfo/bin/Debug
